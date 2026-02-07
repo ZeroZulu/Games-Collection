@@ -141,20 +141,7 @@ A unique fusion of algorithm visualization and retro gaming aesthetics. This pro
 
 ---
 
-## 📸 Screenshots
 
-<div align="center">
-
-### Main Game Interface
-![Game Board](docs/images/game-board.png)
-
-### Decision Tree Visualization
-![Decision Tree](docs/images/decision-tree.png)
-
-### Performance Analytics Dashboard
-![Analytics](docs/images/analytics.png)
-
-</div>
 
 ---
 
@@ -192,74 +179,6 @@ python gui/tic_tac_toe_matrix_gui.py
 
 ---
 
-## 🧠 Algorithm Deep Dive
-
-### Minimax with Alpha-Beta Pruning
-
-```javascript
-function minimax(board, player, depth, alpha, beta) {
-    // Terminal state checks
-    if (checkWinner(board, 'AI'))    return +10 - depth;
-    if (checkWinner(board, 'Player')) return -10 + depth;
-    if (isFull(board))                return 0;
-    
-    // Recursive search with pruning optimization
-    for (move in availableMoves) {
-        score = minimax(newBoard, nextPlayer, depth+1, alpha, beta);
-        
-        // Alpha-beta cutoff - skip unnecessary branches
-        if (pruning && beta <= alpha) break;
-    }
-    
-    return bestScore;
-}
-```
-
-### Performance Comparison
-
-| Metric | Naive Minimax | With Pruning | Improvement |
-|--------|--------------|--------------|-------------|
-| **States Evaluated** | ~8,500/move | ~2,800/move | **67% reduction** |
-| **Computation Time** | ~35ms | ~12ms | **66% faster** |
-| **Win Rate** | 89% | 89% | **Same accuracy** |
-
-### Complexity Analysis
-
-- **Time Complexity:**
-  - Without pruning: O(b^d) ≈ O(9^9) = ~387M states
-  - With pruning: O(b^(d/2)) ≈ O(9^4.5) = ~60K states
-
-- **Space Complexity:** O(d) = O(9) for recursion depth
-
-**Result:** Real-time performance (<15ms) with optimal play!
-
----
-
-## 📁 Project Structure
-
-```
-tic-tac-toe-neural-net/
-│
-├── index.html                              # Main web game
-├── README.md                               # This file
-├── LICENSE                                 # MIT License
-│
-├── cli/
-│   └── tic_tac_toe_matrix_cli.py          # Terminal version
-│
-├── gui/
-│   └── tic_tac_toe_matrix_gui.py          # Desktop app
-│
-├── docs/
-│   ├── images/                             # Screenshots
-│   ├── DEPLOY_GITHUB_VERCEL.md            # Deployment guide
-│   ├── PYTHON_MATRIX_QUICKSTART.md        # Python setup
-│   └── MATRIX_EDITION_GUIDE.md            # Complete guide
-│
-└── requirements.txt                        # Python dependencies
-```
-
----
 
 ## 🛠️ Tech Stack
 
@@ -401,15 +320,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 - **John von Neumann** - Minimax theorem
 - **Retro Arcade Games** - Gaming aesthetic
 - **Open Source Community** - Tools and resources
-
----
-
-## 📊 Project Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/tic-tac-toe-neural-net?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/tic-tac-toe-neural-net?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/tic-tac-toe-neural-net)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/tic-tac-toe-neural-net)
 
 ---
 

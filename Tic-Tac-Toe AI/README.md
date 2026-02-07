@@ -149,7 +149,7 @@ A unique fusion of algorithm visualization and retro gaming aesthetics. This pro
 
 ### 🌐 Play Online (Easiest!)
 
-**Just click:** **[https://tictactoe-neural-net.vercel.app](tictactoe-neural-net.vercel.app)**
+**Just click:** **[https://tictactoe-neural-net.vercel.app](https://tictactoe-neural-net.vercel.app)**
 
 That's it! No setup, no installation, works on any device.
 
@@ -326,7 +326,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 
 ## 🎮 Ready to Play?
 
-### **[→ LAUNCH GAME NOW ←](https://your-project.vercel.app)**
+### **[→ LAUNCH GAME NOW ←](https://tictactoe-neural-net.vercel.app)**
 
 ---
 

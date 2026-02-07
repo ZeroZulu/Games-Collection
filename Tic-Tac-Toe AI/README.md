@@ -307,10 +307,9 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 
 **Your Name**
 
-- 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-- 🐙 GitHub: [@yourusername](https://github.com/yourusername)
-- 📧 Email: your.email@example.com
+- 🌐 Portfolio: [yourwebsite.com](https://zerozulu.github.io)
+- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/shril-patel-020504284/)  
+- 🐙 GitHub: [@yourusername](https://github.com/Zerozulu)
 
 ---
 

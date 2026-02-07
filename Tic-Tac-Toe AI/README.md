@@ -19,7 +19,7 @@
 
 ---
 
-![Game Preview](Tic Tac Toe.png)
+![Game Preview](Tic-Tac-Toe AI/Tic Tac Toe.png)
 
 *Real-time decision tree visualization • Performance analytics • Neon cyberpunk aesthetic*
 
